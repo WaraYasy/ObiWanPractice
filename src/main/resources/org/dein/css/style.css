@@ -9,7 +9,7 @@
     -fx-font-size: 24px;
     -fx-font-weight: bold;
     -fx-fill: #ffe81f; /* amarillo "Star Wars" */
-    -fx-font-family: "Arial Black", "Tahoma", sans-serif;
+    -fx-font-family: "Consolas", monospace;
 }
 
 /* Campos de texto */
@@ -27,7 +27,7 @@
        -fx-font-size: 20px;
        -fx-font-weight: bold;
        -fx-fill: #5CDF96;
-       -fx-font-family: "Consola", sans-serif;
+       -fx-font-family: "Consolas", monospace;
 }
 
 /* Botones principales */

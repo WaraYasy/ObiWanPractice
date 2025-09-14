@@ -37,7 +37,7 @@ public class HoroconController {
             abrirModal();
         }
         else{
-            saludoTitle.setText("BIENVENIDO "+ nombre.toUpperCase());
+            saludoTitle.setText("BIENVENIDX "+ nombre.toUpperCase());
 
         }
     }

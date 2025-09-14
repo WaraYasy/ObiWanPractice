@@ -22,6 +22,8 @@ public class StarWarsApp extends Application {
         String url = getClass().getResource("css/style.css").toString();
         scene.getStylesheets().addAll(url);
         stage.setScene(scene);
+        stage.setResizable(false);
+        stage.setTitle("Iniciando la Fuerza…");
         stage.show();
 
     }
