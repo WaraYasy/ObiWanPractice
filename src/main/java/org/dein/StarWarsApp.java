@@ -19,6 +19,8 @@ public class StarWarsApp extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(StarWarsApp.class.getResource(  "fxml/horocon.fxml"));
         scene = new Scene( fxmlLoader.load());
+        String url = getClass().getResource("css/style.css").toString();
+        scene.getStylesheets().addAll(url);
         stage.setScene(scene);
         stage.show();
 

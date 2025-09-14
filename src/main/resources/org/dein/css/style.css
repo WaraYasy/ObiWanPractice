@@ -1,0 +1,42 @@
+/* Fondo principal */
+.mainVbox {
+    -fx-background-color: #0a0a0a; 
+    -fx-padding: 20;
+}
+
+/* Título principal */
+.headTitle {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-fill: #ffe81f; /* amarillo "Star Wars" */
+    -fx-font-family: "Arial Black", "Tahoma", sans-serif;
+}
+
+/* Campos de texto */
+.text-field {
+    -fx-background-color: #1c1c1c;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #888888;
+    -fx-border-color: #ffe81f;
+    -fx-border-width: 2;
+    -fx-background-insets: 0;
+    -fx-padding: 5 10 5 10;
+}
+
+/* Botones principales */
+.button {
+    -fx-background-color: #ffe81f;
+    -fx-text-fill: #0a0a0a;
+    -fx-font-weight: bold;
+    -fx-padding: 8 15 8 15;
+    -fx-cursor: hand;
+}
+
+/* Botón secundario */
+#btnRetirarse {
+    -fx-background-color: #333333;
+    -fx-text-fill: #ffe81f;
+    -fx-font-weight: bold;
+    -fx-padding: 8 15 8 15;
+    -fx-cursor: hand;
+}
