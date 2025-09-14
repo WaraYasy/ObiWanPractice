@@ -21,6 +21,11 @@
          <VBox.margin>
             <Insets top="10.0" />
          </VBox.margin></Button>
+      <Text fx:id="saludoTitle" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="saludoTitle">
+         <VBox.margin>
+            <Insets top="15.0" />
+         </VBox.margin>
+      </Text>
       <HBox alignment="BOTTOM_RIGHT" prefHeight="50.0" prefWidth="500.0">
          <children>
             <Button fx:id="btnRetirarse" mnemonicParsing="false" onAction="#salir" text="Retirarse" />

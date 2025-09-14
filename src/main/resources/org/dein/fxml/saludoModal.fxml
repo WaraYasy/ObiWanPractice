@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="250.0" styleClass="modalVbox" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dein.SaludoController">
+   <children>
+      <ImageView fitHeight="48.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/light-saber.png" />
+         </image>
+         <VBox.margin>
+            <Insets bottom="5.0" />
+         </VBox.margin>
+      </ImageView>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="headTitle" text="¡General Kenobi!" textAlignment="CENTER" wrappingWidth="134.21630859375" />
+   </children>
+</VBox>

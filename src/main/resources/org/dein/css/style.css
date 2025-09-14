@@ -1,6 +1,6 @@
 /* Fondo principal */
 .mainVbox {
-    -fx-background-color: #0a0a0a; 
+    -fx-background-color: #0a0a0a;
     -fx-padding: 20;
 }
 
@@ -23,6 +23,13 @@
     -fx-padding: 5 10 5 10;
 }
 
+.saludoTitle{
+       -fx-font-size: 20px;
+       -fx-font-weight: bold;
+       -fx-fill: #5CDF96;
+       -fx-font-family: "Consola", sans-serif;
+}
+
 /* Botones principales */
 .button {
     -fx-background-color: #ffe81f;
@@ -39,4 +46,19 @@
     -fx-font-weight: bold;
     -fx-padding: 8 15 8 15;
     -fx-cursor: hand;
+}
+
+/* Modal */
+.modalVbox {
+    -fx-background-color: #1a1a2e;
+    -fx-padding: 20;
+    -fx-border-color: #ffe81f;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* Texto de la modal */
+.modalVbox .headTitle {
+    -fx-fill: #A0F6D1; /* amarillo más cálido que el padre */
 }
